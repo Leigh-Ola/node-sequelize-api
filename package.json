@@ -1,0 +1,28 @@
+{
+  "name": "sequelize-express-sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "nodemon app.js",
+    "ctrl": "node controllers/movies.controller.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0",
+    "axios": "^0.19.2",
+    "express-validator": "^6.6.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.4"
+  }
+}
